@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0e4b84;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .highlight {
+    color: #ffd700;
+    }
+
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.about, .resources {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    flex: 1 1 45%;
+}
+
+.about h2, .resources h2 {
+    background-color: #165a92;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.flag-info {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.flag {
+    width: 80px;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.profile-pic {
+    max-width: 150px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #0e4b84;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer .last-modified {
+    color: #ffd700;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+}
+
