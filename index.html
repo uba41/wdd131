@@ -1,4 +1,4 @@
-<!DOCTYrPE html>
+<!DOCTYPE html>
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
@@ -7,11 +7,19 @@
         <meta name="description" content="WDD 131-Dynamic Web Fundamentals-Chinweuba Ugwu home page">
         <meta name="author" content="Chinweuba Ugwu">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href="styles/base.css">
+        <script src="scripts/getdates.js" defer></script>
     </head>
     <body>
         <header>
-            <hi>WDD 131-Dynamic Web Fundamentals-<span class="highlight">Chinweuba G. Ugwu</span></hi>
+            <h1>
+                <span id="course-title"> WDD 131-Dynamic Web Fundamentals</span>
+                <span class="highlight">Chinweuba G. Ugwu</span>
+            </h1>
              <nav>
                 <a href="www.linkedin.com/in/chinweuba-i-317437216 ">LinkedIn</a>
                 <a href="https://byupw.instructure.com/">Canvas</a>
@@ -63,7 +71,9 @@
             </section>
         </main>
         <footer>
+            <p>©<span id="currentyear"></span> Chinweuba Gabriel Ugwu.Nigeria </p>
             <p>©2025 🌸 Chinweuba Gabriel Ugwu 🌸 Nigeria</p>
-            <p class="last-modified">Last Modification: 01/09/2025 12:13:33</p>
+            <p>Last Modification: 17/09/2025 12:13:33</p>
+            <p id="lastModified"></p>
         </footer>
     </body>
