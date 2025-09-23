@@ -1,0 +1,32 @@
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+	display: block; /* change state in small view */
+	flex: 1 1 100%;
+}
+
+.navigation a {
+    text-align: center;
+}
+
+#menu {
+	display: none;
+}
+
