@@ -89,8 +89,6 @@ figcaption {font-size: smaller;}
 
 .saturate {filter: saturate(50%);}
 
-.shape-outside {float: left; width:200px; height: 200px; border-radius: 50%; shape-outside: circle(50% at 50% 50%);}
-
 .mbm-difference{mix-blend-mode:difference;}
 
 .mbm-hard-light{mix-blend-mode:hard-light;}
