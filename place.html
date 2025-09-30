@@ -15,17 +15,18 @@
         <script src="scripts/place.js" defer></script>
     </head>
     <body>
-        <header class="header">Madagascar</header>
-        <main class="container">
-            <div class="hero">
-                <picture>
-                    <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
-                    <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
-                    <img src="images/hero-small.webp" alt="Temple name and location" width="500" height="250">
-                </picture>
-            </div>
+        <header class="header">
+            <h1>Nigeria</h1>
+        </header>
+        <main class="hero-container">
+            <picture class="hero-image">
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Scenic view of Nigeria">
+            </picture>
 
-            <section class="card">
+
+            <section class="card overlay data-card">
                 <h2>Data</h2>
                 <ul class="data-list">
                     <li><span class="label">Area:</span> 923,769 sq km</li>
@@ -39,11 +40,9 @@
                 </ul>
             </section>
 
-            <section class="card">
+            <section class="card overlay weather-card">
                 <h2>
-                    Weather 
-                    <span class="icon-desktop">⛅</span>
-                    <img class="icon-mobile" src="images/nigeria-weather.png" alt="Weather Icon">
+                    Weather <img class="weather-icon" src="images/nigeria-weather.png" alt="Weather Icon">
                 </h2>
                 <ul class="weather-list">
                     <li><span class="label">Temperature:</span> 29-30 °C</li>
@@ -54,8 +53,8 @@
             </section>
         </main>
         <footer>
-           ©2024 <span class="flower">🌺</span> Rubia Magdalena Francesco <span class="flower">🌺</span> Madagascar<br />
-            Last Modification: 02/08/2024 22:47:47 
+            <p>©<span id="currentyear"></span> 🌸 Chinweuba Gabriel Ugwu 🌸 Nigeria </p>
+            <p id="lastModified"></p>
         </footer>
     </body>
 </html>
