@@ -27,7 +27,7 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #eee;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul {
 
 nav a {
 	display: block;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
