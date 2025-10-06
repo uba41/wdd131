@@ -34,27 +34,3 @@ products.forEach(product => {
     select.appendChild(option);
 });
 
-// Retrieve the current count from localStorage, or default to 0
-let reviewCount = localStorage.getItem('reviewCount');
-if (reviewCount === null) {
-    reviewCount = 0;
-} else {
-    reviewCount = parseInt(reviewCount, 10);
-}
-
-// Increment the count by 1 for the current submission
-reviewCount += 1;
-
-// Save the updated count back to localStorage
-localStorage.setItem('reviewCount', reviewCount);
-
-// Display the count on the page
-const countParagraph = document.getElementById('review-count');
-countParagraph.textContent = `You have submitted ${reviewCount} review${reviewCount !== 1 ? 's' : ''}.`;
-
-// Display the current year in the footer
-document.getElementById('currentyear').textContent = new Date().getFullYear();
-
-// Display the last modified date of the document
-document.getElementById('lastModified').textContent = 
-  "Last Modified: " + document.lastModified;
